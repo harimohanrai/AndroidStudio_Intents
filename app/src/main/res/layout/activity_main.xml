@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Hari Mohan Rai"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#ae0581"
+        android:background="#b0e1c3"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Website of Dr. Hari Mohan Rai"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textColor="#1177ad"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/hmrai1"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:text="View my brief Bio" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff000"
+        android:layout_marginTop="15dp"
+        android:text="View my Profile" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#00ffff"
+        android:layout_marginTop="15dp"
+        android:text="Open Camera" />
+
+
+</LinearLayout>

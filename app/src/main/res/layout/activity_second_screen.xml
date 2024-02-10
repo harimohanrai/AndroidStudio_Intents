@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARI MOHAN RAI graduated in Electronics and Communication Engineering from Vinayaka Mission’s University, Salem, Tamilnadu in 2009 and received his Master of Engineering in Electrical Engineering (Control System) from Government Engineering College, Jabalpur in 2012 (Gold Medalist). He is Pursuing Ph.D. from Indian Institute of Mines, Dhanbad (ISM, Dhanbad) in Department of Electrical and Electronics Engineering on topic “Early detection and diagnosis of critical diseases from analysis of bio-signals use Neuro-Fuzzy and Hybrid Neural classifier”.He worked as Assistant Professor in the Department of Electronics and Communication Engineering, Dronacharya College of Engineering, Gurgaon, India for 2.5 years. Currently, He is serving as Assistant Professor in the Department of Electronics and Communication Engineering, Krishna Engineering College, Ghaziabad since July 2015. He has authored the number of papers which have been published in many National and International journals. He is serving as a Reviewer for  Measurement Journal (Elsevier), International Journal of Engineering (IJE), Computers and Electrical engineering (Elsevier), International Journal of Scientific Engineering and Technology (IJSET), International Journal of Engineering Research and Technology (IJERT), Majlesi Journal of Electrical Engineering (MJEE). He is also an active member of various international Societies such as IEEE Professional Member, The Society of Digital Information and Wireless Communications (SDIWC) and International Association of Engineers (IAENG). His area of Expertise is Biosignal processing, Control System, Image Processing, Neural Network, Pattern Classification and Artificial Intelligence."
+        android:textSize="20dp"/>
+
+    </ScrollView>
+</LinearLayout>
